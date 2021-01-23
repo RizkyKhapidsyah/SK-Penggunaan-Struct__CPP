@@ -1,0 +1,30 @@
+
+#include<conio.h>
+#include<iostream>
+
+using namespace std;
+
+/* Created by Rizky Khapidsyah */
+
+int main() {
+	struct {
+		char nim[5];
+		char nama[15];
+		int nilai;
+	} mahasiswa;
+	
+	cout << "masukan NIM = ";
+	cin >> mahasiswa.nim;
+	cout << "masukan Nama = ";
+	cin >> mahasiswa.nama;
+	cout << "masukan Nilai Akhir = ";
+	cin >> mahasiswa.nilai;
+
+	cout << "\n\nData Yang di Inputkan adalah : \n\n";
+	cout << "NIM = " << mahasiswa.nim << endl;
+	cout << "Nama = " << mahasiswa.nama << endl;
+	cout << "Nilai Akhir = " << mahasiswa.nilai << endl;
+	
+	_getch();
+	return 0;
+}
